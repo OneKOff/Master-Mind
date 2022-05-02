@@ -3,15 +3,12 @@
 public class Damageable : Selectable
 {
     [SerializeField] protected int maxHealth;
-
     protected int _health;
-
 
     protected virtual void Start()
     {
         _health = maxHealth;
     }
-    
 
     public virtual void ChangeHealth(int value)
     {

@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
-public class GenerateGrid : MonoBehaviour
+public class GridGenerator : MonoBehaviour
 {
     public Node NodePrefab;
 
     [Range(5, 200)]
-    public int SizeX, SizeZ;
+    public int SizeX, SizeY;
     public float NodeSize { get; set; } = 1f;
 
     public bool Generate = false;
@@ -30,16 +30,18 @@ public class GenerateGrid : MonoBehaviour
     {
         //transform.position = new Vector3(-(GGrid.Instance.SizeX - 1) * GGrid.Instance.NodeSize / 2f, transform.position.y, -(GGrid.Instance.SizeZ - 1) * GGrid.Instance.NodeSize / 2f);
         //transform.position = new Vector3(NodeSize / 2f, transform.position.y, NodeSize / 2f);
-        for (int x = 0; x < SizeX; x++) {
-            for (int z = 0; z < SizeZ; z++) {
-                CreateNode(x, z);
+        for (var x = 0; x < SizeX; x++)
+        {
+            for (var y = 0; y < SizeY; y++)
+            {
+                CreateNode(x, y);
             }
         }
     }
-    private void CreateNode(int x, int z)
+    private void CreateNode(int x, int y)
     {
         Node node = Instantiate(NodePrefab, transform);
-        node.transform.position += new Vector3(x * NodeSize, 0, z * NodeSize);
-        node.CoordX = x; node.CoordZ = z;
+        node.transform.position += new Vector3(x * NodeSize, 0, y * NodeSize);
+        node.Coords.x = x; node.Coords.y = y;
     }
 }

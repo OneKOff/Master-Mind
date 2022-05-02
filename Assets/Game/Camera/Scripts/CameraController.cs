@@ -1,9 +1,9 @@
 ﻿using UnityEngine.EventSystems;
 using UnityEngine;
 
-public class CameraController : MonoBehaviour
+public class CameraManager : MonoBehaviour
 {
-    public static CameraController Instance;
+    public static CameraManager Instance;
     public Transform FollowTransform;
 
     [SerializeField] private Camera cam;

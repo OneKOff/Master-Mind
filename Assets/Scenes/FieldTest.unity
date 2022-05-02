@@ -170,8 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -284,8 +283,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -398,8 +396,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -512,8 +509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -626,8 +622,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -740,8 +735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -854,8 +848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1068,8 +1061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1182,8 +1174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1296,8 +1287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1410,8 +1400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1524,8 +1513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1638,8 +1626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1752,8 +1739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1866,8 +1852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -1980,8 +1965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2094,8 +2078,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2208,8 +2191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2322,8 +2304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2436,8 +2417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2550,8 +2530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2664,8 +2643,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2778,8 +2756,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -2892,8 +2869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3006,8 +2982,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3120,8 +3095,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3234,8 +3208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3348,8 +3321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3462,8 +3434,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3576,8 +3547,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3690,8 +3660,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3804,8 +3773,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -3950,8 +3918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4064,8 +4031,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4178,8 +4144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4292,8 +4257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4505,8 +4469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4694,8 +4657,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4808,8 +4770,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -4922,8 +4883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5036,8 +4996,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5150,8 +5109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5264,8 +5222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5378,8 +5335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5492,8 +5448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5606,8 +5561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5720,8 +5674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5834,8 +5787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -5948,8 +5900,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6062,8 +6013,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6176,8 +6126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6290,8 +6239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6404,8 +6352,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6518,8 +6465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6632,8 +6578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6746,8 +6691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6860,8 +6804,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -6974,8 +6917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7088,8 +7030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7202,8 +7143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7316,8 +7256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7430,8 +7369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7544,8 +7482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7658,8 +7595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7772,8 +7708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -7886,8 +7821,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8000,8 +7934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8114,8 +8047,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8228,8 +8160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8408,8 +8339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8597,8 +8527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8711,8 +8640,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8825,8 +8753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -8939,8 +8866,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9053,8 +8979,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9139,7 +9064,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &664545276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9269,8 +9194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9383,8 +9307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9497,8 +9420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9611,8 +9533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9725,8 +9646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9839,8 +9759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -9953,8 +9872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10067,8 +9985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10181,8 +10098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10295,8 +10211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10409,8 +10324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10663,8 +10577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10777,8 +10690,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -10891,8 +10803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11005,8 +10916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11119,8 +11029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11233,8 +11142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11347,8 +11255,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11461,8 +11368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11738,8 +11644,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11852,8 +11757,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -11966,8 +11870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12080,8 +11983,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12194,8 +12096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12339,8 +12240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12453,8 +12353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12567,8 +12466,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12681,8 +12579,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12795,8 +12692,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -12909,8 +12805,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -13023,8 +12918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -13220,8 +13114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -13334,8 +13227,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -13448,8 +13340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -13786,7 +13677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SizeX: 0
-  SizeZ: 0
+  SizeY: 0
 --- !u!114 &1020701497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13802,7 +13693,7 @@ MonoBehaviour:
   NodePrefab: {fileID: 6642499750799686344, guid: 60af4df7e5bc27b4eb454dc4b19274be,
     type: 3}
   SizeX: 15
-  SizeZ: 15
+  SizeY: 0
   Generate: 1
 --- !u!1 &1045701935
 GameObject:
@@ -13925,8 +13816,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14039,8 +13929,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14153,8 +14042,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14267,8 +14155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14381,8 +14268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14495,8 +14381,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14609,8 +14494,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14723,8 +14607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14876,8 +14759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -14990,8 +14872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15104,8 +14985,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15218,8 +15098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15332,8 +15211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15446,8 +15324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15560,8 +15437,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15674,8 +15550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15788,8 +15663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -15902,8 +15776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16016,8 +15889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16130,8 +16002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16244,8 +16115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16358,8 +16228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16472,8 +16341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16586,8 +16454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16700,8 +16567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16814,8 +16680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -16928,8 +16793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17042,8 +16906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17156,8 +17019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17270,8 +17132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17384,8 +17245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17498,8 +17358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17612,8 +17471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17726,8 +17584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17840,8 +17697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -17954,8 +17810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18068,8 +17923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18182,8 +18036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18296,8 +18149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18410,8 +18262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18524,8 +18375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18638,8 +18488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18752,8 +18601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18866,8 +18714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -18973,6 +18820,14 @@ MonoBehaviour:
   minPos: {x: 0, y: 0}
   maxPos: {x: 15, y: 15}
   zoomRange: {x: 5, y: 15}
+  _newPosition: {x: 0, y: 0, z: 0}
+  _newRotation: {x: 0, y: 0, z: 0, w: 0}
+  _newZoom: {x: 0, y: 0, z: 0}
+  _movementSpeed: 0
+  _dragStartPosition: {x: 0, y: 0, z: 0}
+  _dragCurrentPosition: {x: 0, y: 0, z: 0}
+  _rotateStartPosition: {x: 0, y: 0, z: 0}
+  _rotateCurrentPosition: {x: 0, y: 0, z: 0}
 --- !u!4 &1423754591
 Transform:
   m_ObjectHideFlags: 0
@@ -19034,8 +18889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19148,8 +19002,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19262,8 +19115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19376,8 +19228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19490,8 +19341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19604,8 +19454,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19718,8 +19567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19832,8 +19680,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -19946,8 +19793,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20060,8 +19906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20174,8 +20019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20288,8 +20132,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20402,8 +20245,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20516,8 +20358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20630,8 +20471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20744,8 +20584,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20858,8 +20697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -20972,8 +20810,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21086,8 +20923,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21200,8 +21036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21314,8 +21149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21428,8 +21262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21542,8 +21375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21656,8 +21488,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21770,8 +21601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21884,8 +21714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 2
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -21998,8 +21827,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22112,8 +21940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22226,8 +22053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22340,8 +22166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22454,8 +22279,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22568,8 +22392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22682,8 +22505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -22891,8 +22713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23035,8 +22856,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23224,8 +23044,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23338,8 +23157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 14
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23452,8 +23270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23566,8 +23383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23680,8 +23496,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23794,8 +23609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -23908,8 +23722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24022,8 +23835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24136,8 +23948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24250,8 +24061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 1
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24364,8 +24174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24478,8 +24287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24592,8 +24400,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24706,8 +24513,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24820,8 +24626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 8
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -24934,8 +24739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25048,8 +24852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 6
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25162,8 +24965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 11
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25307,8 +25109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 2
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25421,8 +25222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 5
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25535,8 +25335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25649,8 +25448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 3
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25763,8 +25561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 9
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25877,8 +25674,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -25991,8 +25787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 7
-  CoordZ: 4
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26204,8 +25999,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 5
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26318,8 +26112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 13
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26432,8 +26225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26546,8 +26338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 11
-  CoordZ: 7
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26660,8 +26451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 4
-  CoordZ: 3
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26774,8 +26564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 0
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -26888,8 +26677,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 1
-  CoordZ: 8
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -27002,8 +26790,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 12
-  CoordZ: 13
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -27116,8 +26903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 9
-  CoordZ: 6
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -27230,8 +27016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 10
-  CoordZ: 12
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -27344,8 +27129,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 10
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
@@ -27458,8 +27242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aeea411eec84f594cb98e0cd08ac3754, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CoordX: 14
-  CoordZ: 0
+  Coords: {x: 0, y: 0}
   colorDefault: {r: 1, g: 1, b: 1, a: 1}
   colorHovered: {r: 0, g: 0, b: 0.5372549, a: 1}
   colorSelected: {r: 0.8301887, g: 0.8270255, b: 0.090067655, a: 1}
