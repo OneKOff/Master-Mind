@@ -2,31 +2,39 @@
 
 public class Damageable : Selectable
 {
-    [SerializeField] protected int maxHealth;
-    protected int _health;
+    [SerializeField] private DamageableData damageableData;
+    public DamageableData DamageableData => damageableData;
 
-    protected virtual void Start()
+    public DamageableStats DamageableStats { get; private set; }
+
+    protected override void Start()
     {
-        _health = maxHealth;
+        base.Start();
+
+        DamageableStats = new DamageableStats();
+
+        DamageableStats.MaxHealth = damageableData.MaxHealth;
+        DamageableStats.Health = damageableData.MaxHealth;
+        DamageableStats.HealthRegen = damageableData.HealthRegen;
     }
 
-    public virtual void ChangeHealth(int value)
+    public void ChangeHealth(int value)
     {
-        _health = Mathf.Clamp(_health + value, 0, maxHealth);
+        DamageableStats.Health = Mathf.Clamp(DamageableStats.Health + value, 0, DamageableStats.MaxHealth);
 
-        if (_health <= 0)
+        if (DamageableStats.Health <= 0)
         {
             Die();
         }
         if (value < 0)
         {
-            Debug.Log(name + " took " + value + " points of damage (" + _health + " / " + maxHealth + ")");
+            Debug.Log($"{name} took {value} points of damage ({DamageableStats.Health} / {DamageableStats.MaxHealth})");
             // Damage Indication
         }
     }
-    protected virtual void Die()
+    protected void Die()
     {
-        Debug.Log(name + " has been defeated.");
+        Debug.Log($"{name} has been defeated.");
         Destroy(gameObject);
     }
 }

@@ -7,6 +7,7 @@ public class TurnManager : MonoBehaviour
     public Timer TurnTimer;
     public float TurnDuration;
 
+    [HideInInspector]
     public int CurrentTeamId;
 
     private void OnEnable()
@@ -28,10 +29,10 @@ public class TurnManager : MonoBehaviour
     private void TurnTimer_OnTimerElapsed()
     {
         CurrentTeamId++;
-        if (CurrentTeamId >= GameController.Instance.Players.Count)
+        if (CurrentTeamId >= GameMainManager.Instance.Players.Count)
         {
-            CurrentTeamId -= GameController.Instance.Players.Count;
-            GameController.Instance.Players[CurrentTeamId].SelectionManager.ResetSelections(SelectionStage.None);
+            CurrentTeamId -= GameMainManager.Instance.Players.Count;
+            GameMainManager.Instance.Players[CurrentTeamId].SelectionManager.ResetSelections(SelectionStage.None);
         }
     }
 }

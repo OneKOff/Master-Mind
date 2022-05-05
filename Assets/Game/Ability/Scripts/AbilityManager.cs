@@ -1,30 +1,19 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
 public class AbilityManager : MonoBehaviour
 {
-    public static AbilityManager Instance;
-
     [SerializeField] private AspectData aspectIcons;
-    [SerializeField] private Dictionary<AbilityType, Ability> abilityHolder;
+    [SerializeField] private List<AbilityHolder> abilityHolders;
 
-    private void Awake()
+    public Ability GetAbility(AbilityType type)
     {
-        if (Instance != null)
+        foreach (var holder in abilityHolders)
         {
-            Destroy(gameObject);
-            return;
-        }
-
-        Instance = this;
-    }
-
-    public Ability GetAbility(AbilityType abName)
-    {
-        if (abilityHolder.TryGetValue(abName, out Ability ability))
-        {
-            return ability;
+            if (holder.Matches(type))
+            {
+                return holder.Ability;
+            }
         }
 
         return null;

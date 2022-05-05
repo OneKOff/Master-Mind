@@ -3,29 +3,15 @@
 [RequireComponent(typeof(GridGenerator))]
 public class GridManager : MonoBehaviour
 {
-    public static GridManager Instance;
-
     [HideInInspector]
     [Range(5, 200)]
     public int SizeX, SizeY;
-
     [HideInInspector]
     public float NodeSize { get; set; } = 1f;
-
+    [HideInInspector]
     public Node[,] NodesGrid;
 
     private void Awake()
-    {
-        if (Instance != null)
-        {
-            Destroy(gameObject);
-            return;
-        }
-        
-        Instance = this;
-    }
-
-    private void Start()
     {
         GetGeneratedGridData();
     }
@@ -43,7 +29,7 @@ public class GridManager : MonoBehaviour
         var nodes = GetComponentsInChildren<Node>();
         foreach (var node in nodes)
         {
-            NodesGrid[node.Coords.x, node.Coords.y] = node;
+            NodesGrid[node.CoordX, node.CoordY] = node;
         }
     }
 }

@@ -1,65 +1,81 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class Unit : Damageable
+public class Unit : Selectable
 {
-    [SerializeField] protected UnitData data;
-    public UnitData Data => data;
-    [SerializeField] protected List<Ability> abilities;
-    public List<Ability> Abilities => abilities;
-    public List<Effect> Effects;
+    [SerializeField] private UnitData unitData;
+    public UnitData UnitData => unitData;
+    public UnitStats UnitStats { get; private set; }
 
-    protected int _energy;
-    protected int _time;
-
-    public int Energy { get { return _energy; } private set { _energy = value; } }
-    public int Time { get { return _time; } private set { _time = value; } }
-
+    public List<Effect> Effects = new List<Effect>();
     public int TeamId;
 
     protected override void Start()
     {
-        base.Start(); // _health = data.MaxHealth;
-        _energy = data.MaxEnergy;
-        _time = data.MaxTime;    
+        base.Start();
 
-        /*if (transform.position.x >= -GGrid.Instance.sizeX * GGrid.Instance.NodeSize / 2f && transform.position.x <= GGrid.Instance.sizeX * GGrid.Instance.NodeSize / 2f &&
-            transform.position.z >= -GGrid.Instance.sizeZ * GGrid.Instance.NodeSize / 2f && transform.position.z <= GGrid.Instance.sizeZ * GGrid.Instance.NodeSize / 2f)*/
-        Coords.x = Mathf.Clamp(Coords.x, 0, GridManager.Instance.SizeX - 1);
-        Coords.y = Mathf.Clamp(Coords.y, 0, GridManager.Instance.SizeY - 1);
-        transform.position = new Vector3(GridManager.Instance.transform.position.x + Coords.x * GridManager.Instance.NodeSize, GridManager.Instance.transform.position.y,
-            GridManager.Instance.transform.position.z + Coords.y * GridManager.Instance.NodeSize);        
+        UnitStats = new UnitStats();
+
+        UnitStats.MaxHealth = unitData.MaxHealth;
+        UnitStats.Health = unitData.MaxHealth;
+        UnitStats.HealthRegen = unitData.HealthRegen;
+
+        UnitStats.MaxEnergy = unitData.MaxEnergy;
+        UnitStats.Energy = unitData.MaxEnergy;
+        UnitStats.EnergyRegen = unitData.EnergyRegen;
+
+        UnitStats.MaxTime = unitData.MaxTime;
+        UnitStats.Time = unitData.MaxTime;
+
+        UnitStats.Power = unitData.Power;
+        UnitStats.Defence = unitData.Defence;
+
+        UnitStats.UnitAspects = unitData.UnitAspects;
+        UnitStats.InnerAbilities = unitData.InnerAbilities;
+
     }
 
     public void SetTeamId(int teamId)
     {
         TeamId = teamId;
     }
+    public virtual void ChangeHealth(int value)
+    {
+        UnitStats.Health = Mathf.Clamp(UnitStats.Health + value, 0, UnitStats.MaxHealth);
+
+        if (UnitStats.Health <= 0)
+        {
+            Die();
+        }
+        if (value < 0)
+        {
+            Debug.Log($"{name} took {value} points of damage ({UnitStats.Health} / {UnitStats.MaxHealth})");
+            // Damage Indication
+        }
+    }
+    protected virtual void Die()
+    {
+        Debug.Log($"{name} has been defeated.");
+        Destroy(gameObject);
+    }
     public virtual bool ChangeEnergy(int _value)
     {
-        if (_energy + _value < 0)
+        if (UnitStats.Energy + _value < 0)
         {
             return false;
         }
-        _energy = Mathf.Clamp(_energy + _value, 0, data.MaxEnergy);
+        UnitStats.Energy = Mathf.Clamp(UnitStats.Energy + _value, 0, UnitStats.MaxEnergy);
 
         return true;
     }
     public virtual bool ChangeTime(int _value)
     {
-        if (_time + _value < 0)
+        if (UnitStats.Time + _value < 0)
         {
             return false;
         }
-        _time = Mathf.Clamp(_time + _value, 0, data.MaxTime);
+        UnitStats.Time = Mathf.Clamp(UnitStats.Time + _value, 0, UnitStats.MaxTime);
 
         return true;
     }
-    /*public IEnumerator MoveTo(int _coordX, int _coordZ)
-    {
-        WaitForSeconds delay = new WaitForSeconds(0.1f);
-
-        transform.Translate(new Vector2(Mathf.Abs(CoordX - _coordX), Mathf.Abs(CoordZ - _coordZ)) * GGrid.Instance.NodeSize * moveToSpeed);
-        yield return delay;
-    }*/
 }

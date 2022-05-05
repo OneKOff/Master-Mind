@@ -4,32 +4,48 @@ using UnityEngine.EventSystems;
 
 public class SelectionManager : MonoBehaviour
 {
-    [HideInInspector] public Selectable HoveredEntity;
-    [HideInInspector] public Selectable SelectedEntity;
+    [HideInInspector] public Selectable HoveredSelectable;
+    [HideInInspector] public Selectable SelectedSelectable;
 
     [HideInInspector] public AbilityType HoveredAbility;
     [HideInInspector] public AbilityType SelectedAbility;
 
-    [HideInInspector] public Material UsageAreaNodeMaterial;
-    [HideInInspector] public Material EffectAreaNodeMaterial;
-    [HideInInspector] public List<Node> UsageArea;
-    [HideInInspector] public List<Node> EffectArea;
+    [SerializeField] private Material basicNodeMaterial;
+    [SerializeField] private Material usageAreaNodeMaterial;
+    [SerializeField] private Material effectAreaNodeMaterial;
+    [HideInInspector] public List<Node> UsageArea = new List<Node>();
+    [HideInInspector] public List<Node> EffectArea = new List<Node>();
 
     private SelectionStage _selectionStage = SelectionStage.None;
 
-    protected virtual void Update()
+    private void Update()
     {
         Ray _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         RaycastHit _hitInfo;
 
-        if (!Input.GetMouseButtonDown(0) || IsMouseOverUI()) { return; }
+        if (IsMouseOverUI()) { return; }
         if (!Physics.Raycast(_ray, out _hitInfo)) { return; }
 
-        if (_hitInfo.collider.TryGetComponent(out Selectable s))
+        if (_hitInfo.collider.TryGetComponent(out Unit unit))
         {
-            SelectEntityStageOne(s);
+            HoverEntityStageOne(unit);
         }
-        
+        if (Input.GetMouseButtonDown(0) && _hitInfo.collider.TryGetComponent(out unit))
+        {
+            SelectEntityStageOne(unit);
+        }
+
+        if (_hitInfo.collider.TryGetComponent(out Node node))
+        {
+            HoverTargetStageThree(node);
+        }
+
+        if (_selectionStage < SelectionStage.Ability) { return; }
+
+        if (Input.GetMouseButtonDown(0) && _hitInfo.collider.TryGetComponent(out Selectable sel))
+        {
+            SelectEntityStageOne(sel);
+        }
     }
 
     public static bool IsMouseOverUI() { return EventSystem.current.IsPointerOverGameObject(); }
@@ -38,8 +54,17 @@ public class SelectionManager : MonoBehaviour
         if (selection < SelectionStage.Target)
         {
             // Clear material
-            UsageArea = null;
-            EffectArea = null;
+            foreach (var uNode in UsageArea)
+            {
+                uNode.ChangeMaterial(basicNodeMaterial);
+            }
+            UsageArea.Clear();
+
+            foreach (var eNode in EffectArea)
+            {
+                eNode.ChangeMaterial(basicNodeMaterial);
+            }
+            EffectArea.Clear();
         }
 
         if (selection < SelectionStage.Ability)
@@ -48,10 +73,10 @@ public class SelectionManager : MonoBehaviour
             SelectedAbility = AbilityType.None;
         }
 
-        if (selection < SelectionStage.Entity)
+        if (selection < SelectionStage.Selectable)
         {
-            HoveredEntity = null;
-            SelectedEntity = null;
+            HoveredSelectable = null;
+            SelectedSelectable = null;
         }
     }
     private bool GetCameraRaycastHitInfo(out RaycastHit hitInfo)
@@ -63,12 +88,12 @@ public class SelectionManager : MonoBehaviour
 
     private void SelectEntityStageOne(Selectable entity)
     {
-        ResetSelections(SelectionStage.Entity);
+        ResetSelections(SelectionStage.Selectable);
 
-        _selectionStage = SelectionStage.Entity;
-        SelectedEntity = entity;
+        _selectionStage = SelectionStage.Selectable;
+        SelectedSelectable = entity;
 
-        Debug.Log($"Selectable {entity.name}; Coords: {entity.Coords.x}, {entity.Coords.y}.");
+        Debug.Log($"Selectable {entity.name}; Coords: {entity.CoordX}, {entity.CoordY}.");
 
         if (entity is Unit)
         {
@@ -77,7 +102,7 @@ public class SelectionManager : MonoBehaviour
     }
     private void HoverEntityStageOne(Selectable entity)
     {
-        if (_selectionStage < SelectionStage.Entity) { return; }
+        if (_selectionStage < SelectionStage.Selectable) { return; }
 
 
     }
@@ -91,10 +116,10 @@ public class SelectionManager : MonoBehaviour
 
         Debug.Log($"Ability {nameof(ability)} selected.");
 
-        var abilityPrefab = AbilityManager.Instance.GetAbility(ability);
+        var abilityPrefab = GameMainManager.Instance.AbilityManager.GetAbility(ability);
         var abilityData = abilityPrefab.Data;
 
-        UsageArea = new List<Node>();
+        UsageArea.Clear();
         // UsageArea = Pathfinding.GetNodesInArea(abilityPrefab.SearchType, abilityPrefab.)
     }
     private void HoverAbilityStageTwo(BaseAbilityUI abilityUI)
@@ -106,17 +131,41 @@ public class SelectionManager : MonoBehaviour
 
     private void SelectTargetStageThree(Selectable target)
     {
-        var targetCoords = target.Coords;
+        ResetSelections(SelectionStage.Target);
+        _selectionStage = SelectionStage.Target;
+
+        Debug.Log($"Ability targeted at coords {target.CoordX}, {target.CoordY}.");
 
         UsageArea = new List<Node>();
         // UsageArea = Pathfinding.GetNodesInArea(abilityPrefab.UsageSearchType, abilityPrefab.minRange, abilityPrefab.maxRange)
     }
-    private void HoverTargetStageThree(Selectable target)
+    private void HoverTargetStageThree(Node target)
     {
-        if (_selectionStage < SelectionStage.Target) { return; }
-        var targetCoords = target.Coords;
+        //if (_selectionStage < SelectionStage.Target) { return; }
+        foreach (var uNode in UsageArea)
+        {
+            uNode.ChangeMaterial(basicNodeMaterial);
+        }
+        UsageArea.Clear();
 
-        EffectArea = new List<Node>();
+        foreach (var eNode in EffectArea)
+        {
+            eNode.ChangeMaterial(basicNodeMaterial);
+        }
+        EffectArea.Clear();
+
+        EffectArea.Add(target);
+
+        foreach (var node in UsageArea)
+        {
+            node.ChangeMaterial(usageAreaNodeMaterial);
+        }
+
+        foreach (var node in EffectArea)
+        {
+            node.ChangeMaterial(effectAreaNodeMaterial);
+        }
+
         // EffectArea = Pathfinding.GetNodesInArea(abilityPrefab.EffectSearchType, abilityPrefab.minRange, abilityPrefab.maxRange)
     }
 }

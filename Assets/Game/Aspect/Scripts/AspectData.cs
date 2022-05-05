@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
 
+[CreateAssetMenu(fileName = "AspectData", menuName = "Aspect/AspectData")]
 public class AspectData : ScriptableObject
 {
-    public Dictionary<AspectType, Sprite> AspectIcons;
+    public List<AspectHolder> AspectIcons = new List<AspectHolder>();
 
     public Sprite GetAspectIcon(AspectType aspect)
     {
-        if (AspectIcons.TryGetValue(aspect, out Sprite icon))
+        foreach (var aspectIcon in AspectIcons)
         {
-            return icon;
+            if (aspectIcon.Matches(aspect))
+            {
+                return aspectIcon.Sprite;
+            }
         }
 
         return null;

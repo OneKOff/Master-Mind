@@ -1,7 +1,7 @@
 ﻿public enum SelectionStage
 {
     None,
-    Entity,
+    Selectable,
     Ability,
     Target
 }

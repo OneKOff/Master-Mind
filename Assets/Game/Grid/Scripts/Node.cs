@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 
 [RequireComponent(typeof(MeshRenderer))]
-public class Node : Selectable
+public class Node : Entity
 {
     private MeshRenderer _mr;
 
-    private void Start()
+    protected override void Start()
     {
         TryGetComponent(out _mr);
     }

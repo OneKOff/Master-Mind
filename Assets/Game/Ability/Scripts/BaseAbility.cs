@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using UnityEngine;
+﻿using UnityEngine;
 
 [System.Serializable]
 public abstract class BaseAbility
@@ -23,7 +18,7 @@ public abstract class BaseAbility
 
     protected virtual bool EnergyTimeCheck(Unit _caster)
     {
-        if (_caster.Energy < Data.EPCost || _caster.Time < Data.TPCost)
+        if (_caster.UnitStats.Energy < Data.EPCost || _caster.UnitStats.Time < Data.TPCost)
         {
             return false;
         }

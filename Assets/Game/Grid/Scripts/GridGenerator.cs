@@ -9,7 +9,8 @@ public class GridGenerator : MonoBehaviour
 
     [Range(5, 200)]
     public int SizeX, SizeY;
-    public float NodeSize { get; set; } = 1f;
+    public bool useNativeNodeSize = false;
+    public float NodeSize = 1f;
 
     public bool Generate = false;
 
@@ -28,8 +29,6 @@ public class GridGenerator : MonoBehaviour
     }
     private void CreateGridNodes()
     {
-        //transform.position = new Vector3(-(GGrid.Instance.SizeX - 1) * GGrid.Instance.NodeSize / 2f, transform.position.y, -(GGrid.Instance.SizeZ - 1) * GGrid.Instance.NodeSize / 2f);
-        //transform.position = new Vector3(NodeSize / 2f, transform.position.y, NodeSize / 2f);
         for (var x = 0; x < SizeX; x++)
         {
             for (var y = 0; y < SizeY; y++)
@@ -40,8 +39,11 @@ public class GridGenerator : MonoBehaviour
     }
     private void CreateNode(int x, int y)
     {
-        Node node = Instantiate(NodePrefab, transform);
-        node.transform.position += new Vector3(x * NodeSize, 0, y * NodeSize);
-        node.Coords.x = x; node.Coords.y = y;
+        var node = Instantiate(NodePrefab, transform);
+        var usedNodeSizeX = useNativeNodeSize ? node.transform.localScale.x : NodeSize;
+        var usedNodeSizeY = useNativeNodeSize ? node.transform.localScale.y : NodeSize;
+
+        node.transform.position += new Vector3(x * usedNodeSizeX, 0, y * usedNodeSizeY);
+        node.CoordX = x; node.CoordY = y;
     }
 }

@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 
-public class Selectable : MonoBehaviour
+public class Selectable : Entity
 {
-    [Range(0, 199)]
-    public Vector2Int Coords;
+    
 }
