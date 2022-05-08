@@ -1,28 +1,55 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 [System.Serializable]
 public abstract class BaseAbility
 {
     public BaseAbilityData Data;
 
-    public virtual void Action(Unit _caster) // Send data package
-    {
-        if (EnergyTimeCheck(_caster))
-        {
-            _caster.ChangeEnergy(-Data.EPCost);
-            _caster.ChangeTime(-Data.TPCost);
+    public List<PathNode> UsageArea = new List<PathNode>();
+    public List<PathNode> EffectArea = new List<PathNode>();
 
-            Debug.Log($"{_caster.name} used ability {Data.Title}");
-        }
+    public virtual AbilityFailReason Action(Unit caster, int targetX, int targetY) // Send data package
+    {
+        var failReason = EnergyTimeCheck(caster);
+
+        if (failReason != AbilityFailReason.None) { return failReason; }
+        
+        caster.ChangeEnergy(-Data.EPCost);
+        caster.ChangeTime(-Data.TPCost);
+
+        // Do stuff
+
+        Debug.Log($"{caster.name} used ability {Data.Title}");
+
+        return failReason;
     }
 
-    protected virtual bool EnergyTimeCheck(Unit _caster)
+    public virtual List<PathNode> GetUsageArea(Unit caster)
     {
-        if (_caster.UnitStats.Energy < Data.EPCost || _caster.UnitStats.Time < Data.TPCost)
+
+
+        return UsageArea;
+    }
+
+    public virtual List<PathNode> GetEffectArea(int targetX, int targetY)
+    {
+        // PathFinding
+
+        return EffectArea;
+    }
+
+    protected virtual AbilityFailReason EnergyTimeCheck(Unit caster)
+    {
+        if (caster.UnitStats.Energy < Data.EPCost)
         {
-            return false;
+            return AbilityFailReason.NotEnoughEnergy;
         }
-        return true;
+        if (caster.UnitStats.Time < Data.TPCost)
+        {
+            return AbilityFailReason.NotEnoughTime;
+        }
+        return AbilityFailReason.None;
     }
 }
 

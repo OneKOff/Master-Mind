@@ -4,6 +4,8 @@ using UnityEngine;
 [System.Serializable]
 public class UnitStats
 {
+    public static int HAND_SIZE = 6;
+
     public int MaxHealth;
     public int HealthRegen;
     public int Health;
@@ -20,4 +22,9 @@ public class UnitStats
 
     public List<AspectDedication> UnitAspects;
     public List<AbilityType> InnerAbilities;
+
+    public CardDeckManager CardDeckManager;
+
+    public List<Effect> Effects = new List<Effect>();
+    public int TeamId;
 }

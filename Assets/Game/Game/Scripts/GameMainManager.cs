@@ -7,8 +7,10 @@ public class GameMainManager : MonoBehaviour
 
     public UIManager UIManager;
     public GridManager GridManager;
+    public SelectionManager SelectionManager;
     public TurnManager TurnManager;
     public AbilityManager AbilityManager;
+    public UnitManager UnitManager;
     public List<PlayerManager> Players = new List<PlayerManager>();
 
     private void Awake()

@@ -17,4 +17,6 @@ public class UnitData : ScriptableObject
 
     public List<AspectDedication> UnitAspects;
     public List<AbilityType> InnerAbilities;
+
+    public List<Card> StartingDeck = new List<Card>();
 }

@@ -13,6 +13,8 @@ public class SelectionManager : MonoBehaviour
     [SerializeField] private Material basicNodeMaterial;
     [SerializeField] private Material usageAreaNodeMaterial;
     [SerializeField] private Material effectAreaNodeMaterial;
+    [SerializeField] private Material doubleAreaNodeMaterial;
+
     [HideInInspector] public List<Node> UsageArea = new List<Node>();
     [HideInInspector] public List<Node> EffectArea = new List<Node>();
 
@@ -29,6 +31,10 @@ public class SelectionManager : MonoBehaviour
         if (_hitInfo.collider.TryGetComponent(out Unit unit))
         {
             HoverEntityStageOne(unit);
+            if (unit.UnitStats.TeamId == GameMainManager.Instance.TurnManager.CurrentTeamId)
+            {
+                // GetAdditionalInfoAndAbilityPermissions
+            }
         }
         if (Input.GetMouseButtonDown(0) && _hitInfo.collider.TryGetComponent(out unit))
         {
@@ -81,9 +87,9 @@ public class SelectionManager : MonoBehaviour
     }
     private bool GetCameraRaycastHitInfo(out RaycastHit hitInfo)
     {
-        Ray _ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-        return Physics.Raycast(_ray, out hitInfo);
+        return Physics.Raycast(ray, out hitInfo);
     }
 
     private void SelectEntityStageOne(Selectable entity)

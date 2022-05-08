@@ -1,4 +1,18 @@
-﻿public class Effect
-{
+﻿using System.Collections.Generic;
 
+public class Effect
+{
+    public List<int> EffectValues;
+    public int Duration;
+    public int Priority;
+
+    public virtual bool CheckEffect(UnitEvent unitEvent) // If false, event is negated
+    {
+        return false;
+    }
+
+    public virtual bool NegateEffect()
+    {
+        return false;
+    }
 }
