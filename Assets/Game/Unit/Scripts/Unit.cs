@@ -5,13 +5,11 @@ public class Unit : Selectable
 {
     [SerializeField] private UnitData unitData;
     public UnitData UnitData => unitData;
-    public UnitStats UnitStats { get; private set; }
+    public UnitStats UnitStats { get; private set; } = new UnitStats();
 
     protected override void Start()
     {
         base.Start();
-
-        UnitStats = new UnitStats();
 
         UnitStats.MaxHealth = unitData.MaxHealth;
         UnitStats.Health = unitData.MaxHealth;
@@ -44,7 +42,7 @@ public class Unit : Selectable
     {
         foreach (var effect in UnitStats.Effects)
         {
-            var fullyNegated = effect.CheckEffect(unitEvent);
+            var fullyNegated = effect.CheckEvent(unitEvent);
 
             if (fullyNegated)
             {

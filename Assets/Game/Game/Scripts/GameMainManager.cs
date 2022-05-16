@@ -9,8 +9,9 @@ public class GameMainManager : MonoBehaviour
     public GridManager GridManager;
     public SelectionManager SelectionManager;
     public TurnManager TurnManager;
-    public AbilityManager AbilityManager;
-    public UnitManager UnitManager;
+    public AbilityDataManager AbilityManager;
+    public EntityGameManager EntityManager;
+    public CameraManager CameraManager;
     public List<PlayerManager> Players = new List<PlayerManager>();
 
     private void Awake()

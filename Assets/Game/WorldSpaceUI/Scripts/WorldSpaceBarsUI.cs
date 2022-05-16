@@ -9,7 +9,7 @@ public class WorldSpaceBarsUI : MonoBehaviour
 
     public void CreateUnitBarSets()
     {
-        foreach (var selectable in GameMainManager.Instance.UnitManager.GridSelectables)
+        foreach (var selectable in GameMainManager.Instance.EntityManager.Selectables)
         {
             if (selectable is Unit)
             {

@@ -4,6 +4,8 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "Unit Data", menuName = "Entity/Unit Data")]
 public class UnitData : ScriptableObject
 {
+    public Unit UnitPrefab;
+
     public int MaxHealth;
     public int HealthRegen;
 

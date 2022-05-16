@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
 
-public class AbilityManager : MonoBehaviour
+public class AbilityDataManager : MonoBehaviour
 {
     [SerializeField] private AspectData aspectIcons;
     [SerializeField] private List<AbilityHolder> abilityHolders;
